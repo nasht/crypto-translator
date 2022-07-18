@@ -1,10 +1,10 @@
 {
 
   "manifest_version": 2,
-  "name": "CryptoShit",
+  "name": "Crypto Translator",
   "version": "1.0",
 
-  "description": "Replace Crypto Words with something more meaningful.",
+  "description": "A joke extension that will automatically replace Crypto Terms. If you're sick of all the hype",
 
   "icons": {
     "48": "Icons/bitcoin-icon.png"

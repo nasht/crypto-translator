@@ -18,7 +18,7 @@ let fromTerms = [
 
 let targetTerms = [
   "Snake Oil",
-  "Bullshit",
+  "Bullsh*t",
   "Ponzi",
   "Scam",
   "Worthless",
@@ -27,7 +27,8 @@ let targetTerms = [
   "Stupid",
   "Pointless",
   "Fake",
-  "Garbage"
+  "Garbage",
+  "Overhyped"
 ]
 
 
@@ -48,14 +49,12 @@ function createMapping(fromTerms, toTerms) {
 
 function walkText(node) {
   if (node.nodeType == 3) {
-    console.log("node: " + node.nodeName + "data: " + node.data);
     currentMapping.forEach((value, key) => {
       node.data = node.data.replace(RegExp(key, "ig"), value);
     });
   }
   if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
     for (var i = 0; i < node.childNodes.length; i++) {
-      console.log("going deeper, node: " + node.nodeName + "type:" + node.nodeType);
       walkText(node.childNodes[i]);
     }
   }
