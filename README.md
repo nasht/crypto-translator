@@ -1,2 +1,3 @@
-# crypto-shit
+# Crypto-Shit
+
 Firefox extension to replace crypto terms with equally meaningless jargon
