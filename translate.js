@@ -14,6 +14,7 @@ let fromTerms = [
   "DAO",
   "Decentralized",
   "Fungible",
+  "Web3"
 ]
 
 let targetTerms = [
