@@ -1,3 +1,3 @@
-# Crypto-Shit
+# Crypto Translator
 
-Firefox extension to replace crypto terms with equally meaningless jargon
+Firefox extension to replace crypto terms with equally meaningless jargon.
